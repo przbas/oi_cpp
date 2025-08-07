@@ -45,3 +45,17 @@ def liczba_cyfr(n):
 # n = int(input("Podaj liczbę całkowitą: "))
 # print(f"Liczba cyfr w liczbie {n} wynosi: {liczba_cyfr(n)}")
 
+# import random
+
+# # losowanie liczby
+# print(random.randint(1, 5))
+
+# print(random.sample(range(1, 49), 6))
+
+import os
+
+print(os.getcwd())  # Pobiera bieżący katalog roboczy
+
+s = {1, 2, 3, 2, 3, 4}
+print(s)  # Zbiór automatycznie usuwa duplikaty
+
